@@ -6,8 +6,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/app", (req, res) => {
-    res.send("<h2>Hi there from /app folder</h2>");
+    res.send("<h2>Hi there from /app folder!!!</h2>");
 });
 
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Listening on port ${port}`));
