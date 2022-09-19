@@ -1,0 +1,14 @@
+version: "3"
+services:
+  node-app:
+    image: node-app-image
+    build: .
+    ports:
+      - "3001:4000"
+    volumes:
+      - ./:/app:ro
+      - /app/node_modules
+    # environment:
+    #   - PORT=4000
+    env_file:
+      - ./.env
