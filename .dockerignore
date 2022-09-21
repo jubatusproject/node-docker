@@ -14,10 +14,10 @@
 **/azds.yaml
 **/bin
 **/charts
-**/docker-compose*
-**/Dockerfile*
-**/*.dockerfile
-**/node_modules
+docker-compose*
+dockerfile*
+*.dockerfile
+node_modules
 **/npm-debug.log
 **/obj
 **/*.md
